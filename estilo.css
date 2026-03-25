@@ -7,6 +7,17 @@
     --botão-ativo: #6FAF4F;
     --botão-inativo: #111F35;
 }
-body {
-    font-family: "Datatype", monospace
+
+
+body{
+    background: var(--cor-de-fundo);
+    color: var(--cor-texto-principal);
+    font-family: "Changa", sans-serif;
+}
+
+.conteudo-principal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
 }
