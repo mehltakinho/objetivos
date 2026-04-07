@@ -32,7 +32,7 @@ body{
 
 }
 
-.botão{
+.botao{
     background-color: var(--botão-inativo);
     display: flex;
     justify-content: center;
