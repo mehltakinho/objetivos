@@ -59,11 +59,20 @@ body{
 .aba-conteudo.ativo{
     display:block
 }
+.aba-conteudo{
+    display: none;
+}
 .abas-texto{
     background-color: var(--cor-de-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
+conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+
 
 
 
