@@ -81,7 +81,7 @@ body{
     color: var(--cor-texto-secundario);
     text-transform: uppercase;
 }
-.conteudo{
+.contador{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
