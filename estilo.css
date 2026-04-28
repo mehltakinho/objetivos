@@ -62,7 +62,7 @@ body{
 .aba-conteudo{
     display: none;
 }
-.abas-texto{
+.aba-texto{
     background-color: var(--cor-de-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
