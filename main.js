@@ -1,1 +1,2 @@
-alert("teste prototipo")
+const botoes = document.querySelectorAll(".botao")
+console.log(botoes)
