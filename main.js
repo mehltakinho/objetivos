@@ -13,3 +13,9 @@ for(let i = 0; i<botoes.length; i++){
         textos[i].classList.add("ativo")
     }
 }
+
+const contadores = document.querySelectorAll(".contador")
+const tempoObjetivol = new Date("2026-10-05T00:00:00")
+const tempoObjetivo2 = new Date("2026-11-05T00:00:00")
+const tempoObjetivo3 = new Date("2026-12-05T00:00:00")
+const tempoObjetivo4 = new Date("2027-01-05T00:00:00")
