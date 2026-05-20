@@ -23,7 +23,7 @@ const tempoObjetivo4 = new Date("2027-01-05T00:00:00")
 const tempo = [tempoObjetivol, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 
 function calculaTempo(tempoObjetivo){
-    let tempoAtual = new Date ():
+    let tempoAtual = new Date ()
     let tempoFinal = tempoObejtivo - tempoAtual
     console.org(tempoFinal)
     let segundos = Math.floor(tempoFinal / 1000)
@@ -42,7 +42,7 @@ function calculaTempo(tempoObjetivo){
 }
 
 function atualizaCronometro(){
-    for(let i = 0; i<contadores.length;i+++){
+    for(let i = 0; i<contadores.length;i++){
         const [dias, horas, minutos, segundos] = calculaTempo(tempo[i]) 
         const contador = contadores[i]
         const numeros = contador.querySelectorAll(".contador-digito-numerico")
