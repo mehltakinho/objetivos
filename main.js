@@ -42,7 +42,22 @@ function calculaTempo(tempoObjetivo){
 }
 
 function atualizaCronometro(){
+    for(let i = 0; i<contadores.length;i+++){
+        const [dias, horas, minutos, segundos] = calculaTempo(tempo[i]) 
+        const contador = contadores[i]
+        const numeros = contador.querySelectorAll(".contador-digito-numerico")
+
+        if(numeros.leght >=0){
+            numeros[0] .textContent = dias
+            numeros[1] .textContent = horas
+            numeros[2] .textContent = minutos
+            numeros[3] .textContent = segundos
+        }
+    }
 
 }
-
+function comecaCronometro(){
+    atualizaCronometro()
+    setInterval(atualizaCronometro, 1000)
+}
 calculaTempo(tempoObjetivo1)
